@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: <%= ENV["DB_NAME"] %>
+  database: <%= ENV["DB_DEV_NAME"] %>
   username: <%= ENV["DB_USER"] %>
   host: <%= ENV["DB_HOST"] %>
   password: <%= ENV["DB_PASS"] %>
