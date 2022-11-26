@@ -1,0 +1,20 @@
+es:
+  messages:
+    error: 'Error %{error}'
+    success: 'success'
+    language_not_available: 'Lenguaje %{lang} no disponible'
+  header:
+    about: 'Acerca de'
+    experience: 'Experiencia'
+    works: 'Mis trabajos'
+    contact_me: 'Contáctame'
+    resume: 'Mi CV'
+    dropdown:
+      text: 'Idioma'
+      languages:
+        es: 'Español'
+        en: 'Inglés'
+  body:
+    name: 'Claudio Sepúlveda'
+    title: 'Intentando construir hermosos sitios web'
+    text: 'Soy un ingeniero de software especializado en el Desarrollo web. Toda mi carrera me he enfocado en tecnologías como Ruby on Rails, React, Javascript y SQL'

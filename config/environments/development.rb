@@ -9,7 +9,7 @@ Rails.application.configure do
   config.cache_classes = false
 
   # Do not eager load code on boot.
-  config.eager_load = false
+  config.eager_load = true
 
   # Show full error reports.
   config.consider_all_requests_local = true
@@ -61,6 +61,8 @@ Rails.application.configure do
 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
+  config.i18n.available_locales = [:es, :en]
+  config.i18n.load_path += Dir[Rails.root.join('config/locales/*.yml').to_s]
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true

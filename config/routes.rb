@@ -12,6 +12,14 @@ Rails.application.routes.draw do
         end
       end
     end
+
+    namespace :texts do
+      resources :translations, only: [] do
+        collection do
+          get :index
+        end
+      end
+    end
   end
 
 end
